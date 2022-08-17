@@ -2,6 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  let i = 0;
+  //i = i + 1;
+  i++;
+
+  const sumar = () => {}
+  
+
+  console.log (i);
+
   return (
     <div className="App">
       <header className="App-header">
