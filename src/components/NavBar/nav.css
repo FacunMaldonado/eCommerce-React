@@ -1,17 +1,17 @@
-.nav{
+/* .nav{
     display: flex;
     border: 1px solid red;
     justify-content: center;
-    /* align-items: center; */
-}
+    align-items: center;
+} */
 
-.nav ul{
+/* .nav ul{
     display: flex;
     list-style: none;
     padding: 10px;
-}
+} */
 
-.nav ul li{
+/* .nav ul li{
     color: white;
     margin: 10px;
-}
+} */
