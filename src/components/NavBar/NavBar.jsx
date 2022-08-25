@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 //import './nav.css'
-import {AiOutlineClose, AiOutlineMenu , AiOutlineShoppingCart} from 'react-icons/ai'
+import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
+import CartWidget from './CartWidget';
 
 
 
@@ -21,7 +22,8 @@ const NavBar = () => {
             <li className='p-4'>Remeras</li>
             <li className='p-4'>Contacto</li>
         </ul>
-        <AiOutlineShoppingCart className='m-10' size={50}/>
+        <CartWidget />
+        {/* <AiOutlineShoppingCart className='m-10' size={50}/> */}
         <div onClick={handleNav} className='block md:hidden'>
           {nav ? <AiOutlineClose size={30}/> : <AiOutlineMenu size={30} />}
         </div>
