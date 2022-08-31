@@ -3,7 +3,7 @@ import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/Productos/ItemListContainer';
 
 function App() {
-  const greeting = 'HOLA PETARDO'
+  const greeting = 'Prueba del item list container'
   return (
     <div className="App text-white">
       <NavBar />
