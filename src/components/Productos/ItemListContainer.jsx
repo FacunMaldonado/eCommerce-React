@@ -1,6 +1,10 @@
 import React, {useState, useEffect} from 'react'
+import ItemList from './ItemList'
 import {data} from  '../../mocks/mockData'
 
+const ItemListContainer = ({greeting}) => {
+  const [productList,setProductList] = useState([])
+  const [loading, setLoading]= useState(false)
 
 useEffect(()=>{
   setLoading = true
@@ -10,7 +14,6 @@ useEffect(()=>{
       .finally(()=> setLoading = (false))
 },[])
 
-const itemListContainer = ({greeting}) => {
   return (
     <div>
       <h3>{greeting}</h3>
@@ -19,5 +22,5 @@ const itemListContainer = ({greeting}) => {
   )
 }
 
-export default itemListContainer
+export default ItemListContainer
 

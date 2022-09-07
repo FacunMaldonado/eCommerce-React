@@ -1,4 +1,4 @@
-productos = [
+const productos = [
     {   id:'1',
         name:'Buzo H1',
         category:'Hoodie',
@@ -17,7 +17,9 @@ productos = [
     ];
 
 
-    const data = new Promise ((resolve, reject) => {
+
+
+    export const data = new Promise ((resolve, reject) => {
         //acciones
         let condition = true
         setTimeout(()=> {
