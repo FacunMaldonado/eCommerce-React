@@ -1,9 +1,9 @@
 import React from 'react'
-import Item from './Item'
+import Item from './productoCards/Item'
 
 const ItemList = ({productList}) => {
   return (
-    <div className='flex flex-wrap'>
+    <div className='presentCards'>
         {productList.map((product)=> <Item key={product.id} product={product}/>)}
     </div>
   )

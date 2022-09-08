@@ -1,10 +1,12 @@
+import buzoPrueba from "./img/buzoPrueba.jpg"
+
 const productos = [
     {   id:'1',
         name:'Buzo H1',
         category:'Hoodie',
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam maxime repellat temporibus. Ipsum consectetur perspiciatis esse eaque quaerat libero cum, porro deserunt est itaque dolorum velit eos modi necessitatibus eius.",
         price:7000,
-        img:'',
+        img:buzoPrueba,
         stock: 5
     },
     {id:'2', name:'Buzo H2', category:'Hoodie', description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.", price:7500, img:'', stock: 8
@@ -19,7 +21,7 @@ const productos = [
 
 
 
-    export const data = new Promise ((resolve, reject) => {
+    const dataPromise = new Promise ((resolve, reject) => {
         //acciones
         let condition = true
         setTimeout(()=> {
@@ -30,3 +32,5 @@ const productos = [
             }
         },3000)
     })
+
+    export {dataPromise}
