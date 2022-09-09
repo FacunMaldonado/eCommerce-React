@@ -8,10 +8,10 @@ const ItemDetail = ({productDetail}) => {
   }
   return (
     <div style={{display:'flex',justifyContent:'center',flexDirection:'column',alignItems:'center',padding:'3rem'}}>
-      <h2>Detalle de: {name}</h2>
+      <h2 className='m-4'>Detalle de: {name}</h2>
       <img src={img} alt={name} style={{width:'25rem'}} />
       <p>{description}</p>
-      <p>${price}</p>
+      <p className='text-2xl'>${price}</p>
       <ItemCount stock={stock} onAdd={onAdd}/>
     </div>
   )
