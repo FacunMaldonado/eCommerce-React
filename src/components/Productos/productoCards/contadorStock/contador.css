@@ -1,0 +1,26 @@
+.botones{
+    background-color: #00df9833;
+    border-radius: 5px;
+}
+
+.botones button{
+    font-size: 2rem;
+    color: #00df9a;
+    padding: 2rem;
+    /* height: 1rem; */
+    
+}
+
+.botones span{
+    font-size: 2rem;
+    color: #00df9a;
+    padding: 2rem;
+}
+
+.botonComprar{
+    margin: 5px;
+    background-color: #00df9833;
+    border-radius: 5px;
+    width: 15rem;
+    height: 4rem;
+}
