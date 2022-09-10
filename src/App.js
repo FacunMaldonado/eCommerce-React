@@ -13,7 +13,8 @@ function App() {
         <h2>Ofertas de la Semana</h2>
           <Routes>
             <Route path='/' element={ <ItemListContainer greeting={greeting} />}/>
-            <Route path='/detalle' element={ <ItemDetailContainer/>}/>
+            <Route path='/detalle/:id' element={ <ItemDetailContainer/>}/>
+            <Route path='/categoria/:categoriaID' element={ <ItemDetailContainer/>}/>
           </Routes>
       </div>
     </BrowserRouter>
