@@ -21,16 +21,16 @@ const NavBar = () => {
       </NavLink>
         <ul className='hidden md:flex'>
             <li className='p-4'>
-              <NavLink to=''>Hoodies</NavLink>
+              <NavLink aria-current='page' to='/categoria/Hoodie'>Hoodies</NavLink>
             </li>
             <li className='p-4'>
-              <NavLink to=''>Remeras</NavLink>
+              <NavLink aria-current='page' to='/categoria/Remera'>Remeras</NavLink>
             </li>
             <li className='p-4'>
-              <NavLink to=''>Joggings</NavLink>
+              <NavLink aria-current='page' to='/categoria/Jogging'>Joggings</NavLink>
             </li>
             <li className='p-4'>
-              <NavLink to=''>Contacto</NavLink>
+              <NavLink aria-current='page' to='/categoria/Contacto'>Contacto</NavLink>
             </li>
         </ul>
         <CartWidget />
