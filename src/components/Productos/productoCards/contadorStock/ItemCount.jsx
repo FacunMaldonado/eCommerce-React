@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './contador.css'
 
-const ItemCount = ({stock,onAdd}) => {
-    const[count,setCount]= useState(1)
+const ItemCount = ({stock,onAdd,count, setCount}) => {
+    
 
     const restar = () => {
         if(count > 1){

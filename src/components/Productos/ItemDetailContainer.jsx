@@ -7,6 +7,7 @@ const ItemDetailContainer = () => {
     const [productDetail, setProductDetail] = useState({})
     const [loading, setLoading]= useState(true)
     const {id} = useParams()
+    
 
     const [productList,setProductList] = useState([])
 
@@ -21,7 +22,7 @@ const ItemDetailContainer = () => {
 
   return (
     <div>
-        {loading ? <p>Cargando...</p> : <ItemDetail productDetail={productDetail}/>}
+        {loading ? <p>Cargando...</p> : <ItemDetail productDetail={productDetail} />}
     </div>
   )
 }
