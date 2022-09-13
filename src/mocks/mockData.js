@@ -1,4 +1,4 @@
-import buzoPrueba from "./img/buzoPrueba.jpg"
+import buzoPrueba from "../img/buzoPrueba.jpg"
 
 const productos = [
     {   id:'1',

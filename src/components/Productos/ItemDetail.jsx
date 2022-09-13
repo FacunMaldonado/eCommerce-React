@@ -9,9 +9,17 @@ const ItemDetail = ({productDetail}) => {
   const navegar = useNavigate()
 
   const onAdd = ()=> {
+    let purchase = {
+      name,
+      price,
+      stock,
+      img,
+      quantity: count
+    }
     console.log(`compraste ${count} items del producto ${name}`)
     setCompra(true)
   }
+
   return (
     <div style={{display:'flex',justifyContent:'center',flexDirection:'column',alignItems:'center',padding:'3rem'}}>
       <h2 className='m-4'>Detalle de: {name}</h2>
