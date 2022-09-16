@@ -7,7 +7,7 @@
     box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.295);
     border: 1px solid #75519C;
     border-radius: 15px;
-    z-index: 1000;
+    /* z-index: 1000; */
     padding: .4rem;
     background-color: black;
   }
