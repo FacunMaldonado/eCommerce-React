@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import ItemList from './ItemList'
 import {dataPromise} from "../../mocks/mockData"
 import { useParams } from 'react-router-dom'
+import Slider from '../Slider/Slider'
 
 const ItemListContainer = ({greeting}) => {
   const [productList,setProductList] = useState([])
@@ -24,7 +25,8 @@ useEffect(()=>{
 
   return (
     <div>
-      <h3>{greeting}</h3>
+      <Slider/>
+
       {loading ? <p>Loading...</p> : <ItemList productList={productList}/>}
     </div>
   )
