@@ -1,10 +1,13 @@
 import React from 'react'
 import {AiOutlineShoppingCart} from 'react-icons/ai'
+import { useCart } from '../../context/CartContext'
 
 const CartWidget = () => {
+  const{cartQuantity} = useCart()
   return (
-    <div>
-        <AiOutlineShoppingCart className='m-10' size={30}/>
+    <div className='flex'>
+        <AiOutlineShoppingCart className='m-5' size={30}/>
+        <span className='mt-6'>{cartQuantity()}</span>
     </div>
   )
 }
