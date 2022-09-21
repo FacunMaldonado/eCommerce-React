@@ -7,7 +7,7 @@ const CartWidget = () => {
   return (
     <div className='flex'>
         <AiOutlineShoppingCart className='m-5' size={30}/>
-        <span className='mt-6'>{cartQuantity()}</span>
+        <span className='mt-6'>{cartQuantity() || ''}</span>
     </div>
   )
 }

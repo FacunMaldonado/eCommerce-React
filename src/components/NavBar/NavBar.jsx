@@ -33,7 +33,9 @@ const NavBar = () => {
               <NavLink aria-current='page' to='/categoria/Contacto'>Contacto</NavLink>
             </li>
         </ul>
-        <CartWidget />
+        <NavLink to={'/cart'}>
+          <CartWidget />
+        </NavLink>
         {/* <AiOutlineShoppingCart className='m-10' size={50}/> */}
         <div onClick={handleNav} className='block md:hidden'>
           {nav ? <AiOutlineClose size={30}/> : <AiOutlineMenu size={30} />}

@@ -60,11 +60,11 @@ const cartQuantity = ()=> {
 }
 
 const cartTotal = ()=> {
-    
+    return cart.reduce ((acumulador,prod)=> acumulador += prod.price * prod.quantity, 0)
 }
 
 return(
-        <CartContext.Provider value={{cart, clear, removeItem, isInCart, addItem, cartQuantity}}>
+        <CartContext.Provider value={{cart, clear, removeItem, isInCart, addItem, cartQuantity, cartTotal}}>
             {children}
         </CartContext.Provider>   
 )
