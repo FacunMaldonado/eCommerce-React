@@ -8,7 +8,7 @@ import CartItem from './CartItem'
 const Cart = () => {
     //forma larga de context
  //const{cart} = useContext(CartContext)
-const {cart, removeItem, cartTotal, clear}= useCart()
+const {cart, cartTotal, clear}= useCart()
 const navegar = useNavigate()
  //console.log('carrtito', cart)
   return (
