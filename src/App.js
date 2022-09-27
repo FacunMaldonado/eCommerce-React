@@ -7,9 +7,20 @@ import Cart from './components/Carrito/Cart';
 import {CartProvider} from './context/CartContext'
 import Checkout from './components/CheckOut/Checkout';
 
+//IMPORTS QUE HICE PARA LA CARGA DINAMICA CON EL MOCKS - useEffect comentado para que se ejecute una unica vez
+//import { useEffect } from 'react';
+//import { addDoc, collection } from 'firebase/firestore';
+//import { db } from './firebase/firebase';
+//import { productos } from './mocks/mockData';
+
 
 function App() {
   const greeting = 'Prueba del item list container'
+  /* useEffect(()=>{
+    const productosCollection = collection(db, "products")
+    productos.map((item)=> addDoc(productosCollection, item))
+    
+  }, []) */
   return (
     <CartProvider>
       <BrowserRouter>
