@@ -26,7 +26,7 @@ const navegar = useNavigate()
           <span>Total: ${cartTotal()}</span>
           <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', padding:'2rem', backgroundColor:'red'}}>
             <button onClick={clear}>Vaciar carrito</button>
-            <button>Terminar compra</button>
+            <button onClick={()=>navegar('/checkout')}>Terminar compra</button>
           </div>
         </div>
       }

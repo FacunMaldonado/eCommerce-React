@@ -1,0 +1,23 @@
+form{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    margin: 20px;
+    /* width: 40%; */
+    align-items: center;
+    justify-content: center;
+}
+
+input, button{
+    margin: 5px;
+    border-radius: 2px;
+    width: 30rem;
+}
+
+button{
+    color: aqua;
+    background-color: grey;
+    /* width: 20rem;
+    margin: 2px; */
+}
