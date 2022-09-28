@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: jersey;
 }
+
 
 body{
   background-color: #000300;
@@ -13,4 +15,23 @@ h2{
   text-align: center;
   letter-spacing: 1px;
   font-weight: bold;
+}
+
+
+@font-face {
+  font-family: 'gilroy';
+  src: url('./fonts/Gilroy-ExtraBold.otf') format("truetype");
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'gilroy2';
+  src: url('./fonts/Gilroy-Medium.ttf') format("truetype");
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'jersey';
+  src: url('./fonts/Jersey\ M54.ttf') format("truetype");
+  font-display: swap
 }
