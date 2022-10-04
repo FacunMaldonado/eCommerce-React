@@ -1,0 +1,12 @@
+.boxTT{
+    border: 1px solid red;
+    display: flex;
+    /* filter: drop-shadow(0 0 3px white); */
+    padding: 100px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+

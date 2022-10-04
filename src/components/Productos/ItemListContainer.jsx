@@ -5,6 +5,8 @@ import { useParams } from 'react-router-dom'
 import Slider from '../Slider/Slider'
 import { collection, getDocs, query, where } from 'firebase/firestore'
 import { db } from '../../firebase/firebase'
+import './productos.css'
+import TTBlanco from '../../img/TT-Blanco.png'
 
 const ItemListContainer = ({greeting}) => {
   const [productList,setProductList] = useState([])
@@ -48,6 +50,10 @@ useEffect(()=>{
 
   return (
     <div>
+      <div className="boxTT">
+        {/* <img className='TT' src="https://res.cloudinary.com/dhzrx3fie/image/upload/c_scale,h_51,q_auto:low,w_427/v1664375193/CoderReact-TT/TT_1_Negro_1_b7jik5.png" alt="" /> */}
+        <img src={TTBlanco} alt="" />
+      </div>
       <Slider/>
 
       {loading ? <p>Loading...</p> : <ItemList productList={productList}/>}
