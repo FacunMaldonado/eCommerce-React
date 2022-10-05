@@ -57,7 +57,7 @@ const NavBar = () => {
               <NavLink aria-current='page' to='/categoria/Remera'>Remeras</NavLink>
             </li>
             <li className='p-4 border-b' onClick={() => setNav(false)}>
-              <NavLink aria-current='page' to='/categoria/Jogging'>Joggings</NavLink>
+              <NavLink aria-current='page' to='/categoria/Accesorio'>Accesorios</NavLink>
             </li>
             <li className='p-4'onClick={() => setNav(false)}>
               <NavLink aria-current='page' to='/categoria/Contacto'>Contacto</NavLink>

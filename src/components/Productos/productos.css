@@ -1,6 +1,6 @@
 .boxTT{
     display: flex;
-    padding: 100px;
+    padding: 50px;
     width: 100%;
     text-align: center;
     position: relative;
@@ -8,6 +8,9 @@
     align-items: center;
 }
 
-.boxTT img{
-    border: 1px solid red;
+
+@media (max-width: 425px){
+    .boxTT{
+        padding: 25px;
+    }
 }
