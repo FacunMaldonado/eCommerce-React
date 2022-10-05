@@ -33,7 +33,7 @@ const NavBar = () => {
 
         <ul className='hidden md:flex'>
             <li className='p-4'>
-              <NavLink aria-current='page' to='/categoria/Jogging'>Joggings</NavLink>
+              <NavLink aria-current='page' to='/categoria/Accesorio'>Accesorios</NavLink>
             </li>
             <li className='p-4'>
               <NavLink aria-current='page' to='/categoria/Contacto'>Contacto</NavLink>
