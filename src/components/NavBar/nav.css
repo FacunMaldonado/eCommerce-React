@@ -1,9 +1,21 @@
+header{
+    position: relative;
+    height: 11rem;
+    width: 100%;
+}
+
+
 .nav{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 11rem;
     gap: 2rem;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.801);
+    backdrop-filter: blur(3px);
 }
 
 .logo{
