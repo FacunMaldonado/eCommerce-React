@@ -51,8 +51,8 @@
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 380px){
     .logo{
-        border: 1px solid green;
+        height: 9rem;
     }
 }

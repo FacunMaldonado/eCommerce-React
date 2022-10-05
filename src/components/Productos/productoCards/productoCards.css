@@ -197,6 +197,27 @@
 }
 
 
+
+
+
+/* MEDIAS */
+
+@media (max-width: 599px){
+  .cardContainer{
+    height: 25rem;
+    width: 20rem;
+  }
+
+  .card {
+    height: 100%;
+    
+  }
+
+  .imgCard{
+    object-fit: scale-down;
+  }
+}
+
 /* CARTAS MIASSSSSSS
 
 .presentCards{

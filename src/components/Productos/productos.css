@@ -1,7 +1,5 @@
 .boxTT{
-    border: 1px solid red;
     display: flex;
-    /* filter: drop-shadow(0 0 3px white); */
     padding: 100px;
     width: 100%;
     text-align: center;
@@ -10,3 +8,6 @@
     align-items: center;
 }
 
+.boxTT img{
+    border: 1px solid red;
+}

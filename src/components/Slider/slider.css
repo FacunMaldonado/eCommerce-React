@@ -58,5 +58,10 @@
     width: 100%;
     object-fit: none;
   }
-  
+}
+
+@media (max-width: 650px){
+  .slider{
+    display: none;
+  }
 }
