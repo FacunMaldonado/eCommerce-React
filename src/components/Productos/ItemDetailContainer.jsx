@@ -4,6 +4,7 @@ import { dataPromise } from '../../mocks/mockData'
 import { useParams } from 'react-router-dom'
 import { collection , doc, getDoc} from 'firebase/firestore'
 import { db } from '../../firebase/firebase'
+import Loader from '../Loader/Loader'
 
 const ItemDetailContainer = () => {
     const [productDetail, setProductDetail] = useState({})
@@ -38,7 +39,7 @@ const ItemDetailContainer = () => {
 
   return (
     <div>
-        {loading ? <p>Cargando...</p> : <ItemDetail productDetail={productDetail} />}
+        {loading ? <Loader/> : <ItemDetail productDetail={productDetail} />}
     </div>
   )
 }

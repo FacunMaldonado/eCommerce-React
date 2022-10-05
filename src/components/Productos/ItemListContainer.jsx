@@ -7,6 +7,7 @@ import { collection, getDocs, query, where } from 'firebase/firestore'
 import { db } from '../../firebase/firebase'
 import './productos.css'
 import TTBlanco from '../../img/TT-Blanco.png'
+import Loader from '../Loader/Loader'
 
 const ItemListContainer = ({greeting}) => {
   const [productList,setProductList] = useState([])
@@ -56,7 +57,7 @@ useEffect(()=>{
       </div>
       <Slider/>
 
-      {loading ? <p>Loading...</p> : <ItemList productList={productList}/>}
+      {loading ? <Loader/> : <ItemList productList={productList}/>}
     </div>
   )
 }

@@ -1,0 +1,33 @@
+.boxLoader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+
+.spinner{
+    text-align: center;
+    animation: logoLoader 2s infinite linear;
+    width: 10rem;
+    height: 12rem;
+}
+
+@keyframes logoLoader {
+    0%{
+    opacity: 1;
+    filter: drop-shadow( 0 0 5px white);
+    }
+    50%{
+        opacity: 0;
+
+        filter: drop-shadow( 0 0 30px white);
+    }
+    100%{
+        opacity: 1;
+
+        filter: drop-shadow( 0 0 15px white);
+    }
+    
+}
