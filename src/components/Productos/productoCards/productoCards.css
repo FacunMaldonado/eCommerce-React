@@ -193,7 +193,7 @@
 
   .card:hover,
 .card:focus-within {
-    align-items: center;
+    /* align-items: center; */
   }
   .card:hover:before,
 .card:focus-within:before {
