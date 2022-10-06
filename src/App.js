@@ -6,7 +6,6 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Cart from './components/Carrito/Cart';
 import {CartProvider} from './context/CartContext'
 import Checkout from './components/CheckOut/Checkout';
-import Slider from './components/Slider/Slider';
 
 //IMPORTS QUE HICE PARA LA CARGA DINAMICA CON EL MOCKS - useEffect comentado para que se ejecute una unica vez
 //import { useEffect } from 'react';
@@ -36,7 +35,6 @@ function App() {
             </Routes>
         </div>
       </BrowserRouter>
-      <Slider/>
     </CartProvider>
   );
 }

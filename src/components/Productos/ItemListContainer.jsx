@@ -55,7 +55,7 @@ useEffect(()=>{
         {/* <img className='TT' src="https://res.cloudinary.com/dhzrx3fie/image/upload/c_scale,h_51,q_auto:low,w_427/v1664375193/CoderReact-TT/TT_1_Negro_1_b7jik5.png" alt="" /> */}
         <img src={TTBlanco} alt="" />
       </div>
-      {/* {<Slider/>} */}
+    
 
       {loading ? <Loader/> : <ItemList productList={productList}/>}
     </div>
