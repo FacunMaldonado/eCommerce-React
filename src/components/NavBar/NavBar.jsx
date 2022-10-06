@@ -3,6 +3,7 @@ import './nav.css'
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 import CartWidget from './CartWidget';
 import {NavLink} from 'react-router-dom'
+import TTBlanco from '../../img/TT-Blanco.png'
 
 
 
@@ -46,13 +47,14 @@ const NavBar = () => {
             <CartWidget />
           </NavLink>
           {/* <AiOutlineShoppingCart className='m-10' size={50}/> */}
-          <div onClick={handleNav} className='block md:hidden'>
+          <div  onClick={handleNav} className='block md:hidden'>
             {nav ? <AiOutlineClose size={30}/> : <AiOutlineMenu size={30} />}
           </div>
           
           <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r bg-[#000300] ease-in-out duration-500 z-50' : 'fixed left-[-100%]'}>
           <ul className='uppercase p-4'>
-            <h1 className='w-full text-2xl font-bold text-[#00df9a] m-4'>E-COMMERCE.</h1>
+            <img className='TTmobile' src={TTBlanco} alt="" />
+            {/* <h1 className='w-full text-2xl font-bold text-[#00df9a] m-4'>E-COMMERCE.</h1> */}
               <li className='p-4 border-b' onClick={() => setNav(false)}>
                 <NavLink aria-current='page' to='/categoria/Hoodie'>Hoodies</NavLink>
               </li>

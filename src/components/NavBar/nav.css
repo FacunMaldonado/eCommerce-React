@@ -9,19 +9,23 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 11rem;
+    height: 10rem;
     gap: 2rem;
     position: fixed;
     top: 0;
     z-index: 9999;
     background-color: rgba(0, 0, 0, 0.801);
     backdrop-filter: blur(3px);
+    left: 2rem;
 }
 
 .logo{
     filter: drop-shadow(0 0 3px white);
     /* height: 8rem; */
     padding: 2px;
+    width: 6rem;
+    height: 8rem;
+    object-fit: cover;
 }
 
 .nav li{
@@ -31,9 +35,13 @@ header{
 
 .carrito{
     position: absolute;
-    right: 3%;
+    right: 6%;
 }
 
+.TTmobile{
+    /* width: 50%; */
+    /* margin: 3rem; */
+}
 
 
 /*  ---------MEDIAS----------  */
@@ -45,7 +53,8 @@ header{
     }
 
     .logo{
-        height: 10rem;
+        width: 6rem;
+        height: 8rem;
     }
 }
 

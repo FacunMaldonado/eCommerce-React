@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 
 const Item = ({product}) => {
   
-    const {id,img,name,description,price,stock} = product
+    const {id,img,img2,name,description,price,stock} = product
     const navegar = useNavigate()
   return (
     /*<div className='cardContainer'>
@@ -25,7 +25,7 @@ const Item = ({product}) => {
     <main className="cardContainer">
       <div className="card">
         <img className='imgCard' src={img}alt={name} ></img>
-        <img className='imgCard2' src="https://res.cloudinary.com/dhzrx3fie/image/upload/c_scale,h_1258,q_auto:best,w_1095/v1664971293/CoderReact-TT/WhatsApp_Image_2022-10-04_at_12.48.07_y64x4x.jpg" alt="" />
+        {<img className='imgCard2' src={img2} alt="" />}
 
         <div className="content">
           <h2 className="title">{name}</h2>
