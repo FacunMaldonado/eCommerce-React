@@ -67,6 +67,14 @@ header{
     height: 100vh;
     width: 20rem;
     transition: all .5s ease;
+    opacity: 1;
+}
+
+.nav_desplegable_disable{
+    display: none;
+    opacity: 0;
+    transition: all .5s ease;
+
 }
 
 .list_nav_mov{
