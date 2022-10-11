@@ -1,24 +1,36 @@
 form{
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     padding: 2px;
     margin: 20px;
-    /* width: 40%; */
+    /* width: 50rem; */
     align-items: center;
     justify-content: center;
     color: black;
 }
 
-input, button{
+button{
     margin: 5px;
     border-radius: 2px;
     width: 5rem;
-}
-
-button{
     color: rgb(110, 57, 179);
     background-color: grey;
-    /* width: 20rem;
-    margin: 2px; */
+}
+
+
+input{
+    margin: 5px;
+    border-radius: 2px;
+    width: 18rem;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+
+h4{
+    text-align: center;
+    margin: 3rem;
+    font-size: 1.5rem;
 }
