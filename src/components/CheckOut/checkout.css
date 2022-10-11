@@ -13,11 +13,11 @@ form{
 input, button{
     margin: 5px;
     border-radius: 2px;
-    width: 30rem;
+    width: 5rem;
 }
 
 button{
-    color: aqua;
+    color: rgb(110, 57, 179);
     background-color: grey;
     /* width: 20rem;
     margin: 2px; */

@@ -1,14 +1,21 @@
 .botones{
-    background-color: #00df9833;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff5d;
     border-radius: 5px;
+    border: 1px solid green;
 }
 
 .botones button{
+    display: flex;
+    background-color: white;
     font-size: 2rem;
-    color: #00df9a;
     padding: 2rem;
     /* height: 1rem; */
-    
+    border: 1px solid red;
+    width: 10rem;
+    height: 4rem;
 }
 
 .botones span{
@@ -19,8 +26,20 @@
 
 .botonComprar{
     margin: 5px;
-    background-color: #00df9833;
+    background-color: #fbf9fccc;
     border-radius: 5px;
     width: 15rem;
     height: 4rem;
+}
+
+@media(max-width: 320px){
+    .botones{
+            width: 20rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background-color: #ffffff5d;
+            border-radius: 5px;
+            border: 1px solid green;
+    }
 }
