@@ -12,15 +12,13 @@
     background-color: white;
     font-size: 2rem;
     padding: 2rem;
-    /* height: 1rem; */
-    border: 1px solid red;
     width: 10rem;
     height: 4rem;
 }
 
 .botones span{
     font-size: 2rem;
-    color: #00df9a;
+    color: rgb(84, 25, 160);
     padding: 2rem;
 }
 
